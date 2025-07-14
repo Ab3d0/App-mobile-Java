@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FlowFree" parent="Theme.Material3.DayNight">
+        <!-- Personnalisation du thème -->
+        <item name="colorPrimary">#FF7043</item> <!-- ActionBar noire -->
+
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="Theme.FlowFree" parent="Base.Theme.FlowFree" />
+</resources>

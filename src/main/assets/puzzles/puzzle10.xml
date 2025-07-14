@@ -1,0 +1,38 @@
+<puzzle size="8" nom="Challenge level 1">
+    <paire> <!-- vert -->
+        <point colonne="2" ligne="0" />
+        <point colonne="0" ligne="6" />
+    </paire>
+    <paire> <!-- kaki -->
+        <point colonne="7" ligne="0" />
+        <point colonne="2" ligne="3" />
+    </paire>
+    <paire> <!-- bleu -->
+        <point colonne="1" ligne="1" />
+        <point colonne="2" ligne="2" />
+    </paire>
+    <paire> <!-- rose -->
+        <point colonne="4" ligne="1" />
+        <point colonne="7" ligne="2" />
+    </paire>
+    <paire> <!-- violet -->
+        <point colonne="4" ligne="2" />
+        <point colonne="3" ligne="5" />
+    </paire>
+    <paire> <!-- jaune -->
+        <point colonne="0" ligne="3" />
+        <point colonne="1" ligne="5" />
+    </paire>
+    <paire> <!-- bleu clair -->
+        <point colonne="7" ligne="3" />
+        <point colonne="4" ligne="7" />
+    </paire>
+    <paire> <!-- orange -->
+        <point colonne="7" ligne="4" />
+        <point colonne="6" ligne="7" />
+    </paire>
+    <paire>
+        <point colonne="6" ligne="2" />
+        <point colonne="0" ligne="7" />
+    </paire>
+</puzzle>

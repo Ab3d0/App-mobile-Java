@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:background="#A3B18A">
+
+<!-- Conteneur du puzzle -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/black"
+        android:id="@+id/gamePuzzle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/end_screen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#AA000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:visibility="gone"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/end_game_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Félicitations, vous avez terminé le jeu!"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour au Menu" />
+    </LinearLayout>
+
+</LinearLayout>

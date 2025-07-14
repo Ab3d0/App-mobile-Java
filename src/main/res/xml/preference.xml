@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Menus"
+        android:key="monMenus">
+
+        <CheckBoxPreference
+            android:key="pref_achromate"
+            android:title="mode achromate"
+            android:summary="Activé le mode achromate"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

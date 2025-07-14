@@ -1,0 +1,50 @@
+<puzzle size="11" nom="Impossible level 1">
+    <paire> <!-- jaune -->
+        <point colonne="7" ligne="0" />
+        <point colonne="10" ligne="9" />
+    </paire>
+    <paire> <!-- rose foncé -->
+        <point colonne="1" ligne="1" />
+        <point colonne="7" ligne="7" />
+    </paire>
+    <paire> <!-- orange/kaki -->
+        <point colonne="1" ligne="2" />
+        <point colonne="4" ligne="3" />
+    </paire>
+    <paire> <!-- vert -->
+        <point colonne="7" ligne="2" />
+        <point colonne="9" ligne="9" />
+    </paire>
+    <paire> <!-- orange -->
+        <point colonne="8" ligne="2" />
+        <point colonne="1" ligne="9" />
+    </paire>
+    <paire> <!-- rose clair -->
+        <point colonne="3" ligne="3" />
+        <point colonne="6" ligne="6" />
+    </paire>
+    <paire> <!-- vert clair -->
+        <point colonne="0" ligne="4" />
+        <point colonne="3" ligne="7" />
+    </paire>
+    <paire> <!-- vert foncé -->
+        <point colonne="1" ligne="4" />
+        <point colonne="2" ligne="6" />
+    </paire>
+    <paire> <!-- bleu foncé -->
+        <point colonne="7" ligne="4" />
+        <point colonne="6" ligne="7" />
+    </paire>
+    <paire> <!-- bleu clair -->
+        <point colonne="4" ligne="8" />
+        <point colonne="0" ligne="9" />
+    </paire>
+    <paire> <!-- violet -->
+        <point colonne="5" ligne="8" />
+        <point colonne="7" ligne="8" />
+    </paire>
+    <paire> <!--  -->
+        <point colonne="0" ligne="10" />
+        <point colonne="10" ligne="10" />
+    </paire>
+</puzzle>
